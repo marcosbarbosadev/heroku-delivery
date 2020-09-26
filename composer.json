@@ -1,0 +1,11 @@
+{
+    "name": "mb/testeapp",
+    "description": "Pacote para  testar deploy no heroku",
+    "authors": [
+        {
+            "name": "Marcos Barbosa",
+            "email": "barbosa.mg@gmail.com"
+        }
+    ],
+    "require": {}
+}
