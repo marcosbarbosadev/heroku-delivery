@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('ola');
+    $tasks = \App\Models\Task::all();
+    return view('ola', ['tasks' => $tasks]);
 });

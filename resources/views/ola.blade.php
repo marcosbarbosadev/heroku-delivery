@@ -21,6 +21,14 @@
     </style>
 </head>
 <body class="antialiased">
-    <h3>Olá Laravel!</h3>
+    <h3>Tasks</h3>
+
+    <ul>
+    @foreach ($tasks as $task)
+        <li>{{ $task->name  }}</li>
+    @endforeach
+    </ul>
+
+
 </body>
 </html>
