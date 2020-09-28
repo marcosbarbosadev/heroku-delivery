@@ -21,7 +21,7 @@
     </style>
 </head>
 <body class="antialiased">
-    <h3>Tasks</h3>
+    <h3>Our Tasks</h3>
 
     <ul>
     @foreach ($tasks as $task)
